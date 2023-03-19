@@ -1,0 +1,23 @@
+@media screen and (max-width: 576px) {
+    /* common styles */
+    nav{
+        display: none;
+    }
+    .container{
+        margin: 10px 10px 0 10px;
+    }
+    /* top-nav styles */
+    .top-nav li{
+        list-style: none;
+    }
+    .top-nav li a{
+        text-decoration: none;
+        color: black;
+    }
+}
+@media screen and (min-width: 577px){
+    /* common */
+    .hide{
+        display: none;
+    }
+}
